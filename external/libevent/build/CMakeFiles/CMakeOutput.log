@@ -1,0 +1,1947 @@
+The system is: Linux - 4.10.0-40-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c810/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c810.dir/build.make CMakeFiles/cmTC_3c810.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c810.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3c810.dir/testCCompiler.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3c810
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c810.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3c810.dir/testCCompiler.c.o  -o cmTC_3c810 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2da6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2da6.dir/build.make CMakeFiles/cmTC_a2da6.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a2da6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2da6.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o  -o cmTC_a2da6 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 6.3.0-12ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170406 (Ubuntu 6.3.0-12ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2da6' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cczLCoHi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a2da6 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2da6' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a2da6/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a2da6.dir/build.make CMakeFiles/cmTC_a2da6.dir/build]
+  ignore line: [make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a2da6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2da6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o  -o cmTC_a2da6 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 6.3.0-12ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170406 (Ubuntu 6.3.0-12ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2da6' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cczLCoHi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a2da6 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczLCoHi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a2da6] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [CMakeFiles/cmTC_a2da6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19d99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19d99.dir/build.make CMakeFiles/cmTC_19d99.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19d99.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_19d99.dir/feature_tests.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_19d99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d99.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_19d99.dir/feature_tests.c.o  -o cmTC_19d99 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0495/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0495.dir/build.make CMakeFiles/cmTC_e0495.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0495.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_e0495.dir/feature_tests.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e0495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0495.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e0495.dir/feature_tests.c.o  -o cmTC_e0495 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7621/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7621.dir/build.make CMakeFiles/cmTC_a7621.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7621.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_a7621.dir/feature_tests.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a7621
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7621.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a7621.dir/feature_tests.c.o  -o cmTC_a7621 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test check_c_compiler_flag__Wall succeeded with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21c67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21c67.dir/build.make CMakeFiles/cmTC_21c67.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21c67.dir/src.c.o
+/usr/bin/cc    -Dcheck_c_compiler_flag__Wall   -Wall -o CMakeFiles/cmTC_21c67.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_21c67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21c67.dir/link.txt --verbose=1
+/usr/bin/cc   -Dcheck_c_compiler_flag__Wall    CMakeFiles/cmTC_21c67.dir/src.c.o  -o cmTC_21c67 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wswitch succeeded with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b9a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b9a9.dir/build.make CMakeFiles/cmTC_9b9a9.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b9a9.dir/src.c.o
+/usr/bin/cc    -Wall -Dcheck_c_compiler_flag__Wswitch   -Wswitch -o CMakeFiles/cmTC_9b9a9.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9b9a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b9a9.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Dcheck_c_compiler_flag__Wswitch    CMakeFiles/cmTC_9b9a9.dir/src.c.o  -o cmTC_9b9a9 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__fno_strict_aliasing succeeded with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7799/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7799.dir/build.make CMakeFiles/cmTC_c7799.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7799.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -Dcheck_c_compiler_flag__fno_strict_aliasing   -fno-strict-aliasing -o CMakeFiles/cmTC_c7799.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c7799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7799.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -Dcheck_c_compiler_flag__fno_strict_aliasing    CMakeFiles/cmTC_c7799.dir/src.c.o  -o cmTC_c7799 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the __GNU_LIBRARY__ exist passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29759/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29759.dir/build.make CMakeFiles/cmTC_29759.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29759.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_29759.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_29759
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29759.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_29759.dir/CheckSymbolExists.c.o  -o cmTC_29759 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GNU_LIBRARY__
+  return ((int*)(&__GNU_LIBRARY__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7703/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7703.dir/build.make CMakeFiles/cmTC_e7703.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7703.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_e7703.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e7703
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7703.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_e7703.dir/CheckIncludeFile.c.o  -o cmTC_e7703 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02b7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02b7f.dir/build.make CMakeFiles/cmTC_02b7f.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02b7f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_02b7f.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_02b7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02b7f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_02b7f.dir/CheckIncludeFile.c.o  -o cmTC_02b7f -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f571/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f571.dir/build.make CMakeFiles/cmTC_7f571.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f571.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_7f571.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7f571
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f571.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_7f571.dir/CheckIncludeFile.c.o  -o cmTC_7f571 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fed04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fed04.dir/build.make CMakeFiles/cmTC_fed04.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fed04.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_fed04.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fed04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fed04.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_fed04.dir/CheckIncludeFile.c.o  -o cmTC_fed04 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be058/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be058.dir/build.make CMakeFiles/cmTC_be058.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be058.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_be058.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_be058
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be058.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_be058.dir/CheckIncludeFile.c.o  -o cmTC_be058 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8fd4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fd4b.dir/build.make CMakeFiles/cmTC_8fd4b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fd4b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_8fd4b.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8fd4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fd4b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_8fd4b.dir/CheckIncludeFile.c.o  -o cmTC_8fd4b -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51dd0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51dd0.dir/build.make CMakeFiles/cmTC_51dd0.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51dd0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_51dd0.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_51dd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51dd0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_51dd0.dir/CheckIncludeFile.c.o  -o cmTC_51dd0 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a229d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a229d.dir/build.make CMakeFiles/cmTC_a229d.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a229d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a229d.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a229d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a229d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a229d.dir/CheckIncludeFile.c.o  -o cmTC_a229d -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26a82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26a82.dir/build.make CMakeFiles/cmTC_26a82.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26a82.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_26a82.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_26a82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a82.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_26a82.dir/CheckIncludeFile.c.o  -o cmTC_26a82 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0a8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0a8a.dir/build.make CMakeFiles/cmTC_a0a8a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0a8a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a0a8a.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a0a8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0a8a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a0a8a.dir/CheckIncludeFile.c.o  -o cmTC_a0a8a -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file poll.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e258/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e258.dir/build.make CMakeFiles/cmTC_3e258.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e258.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_3e258.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3e258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e258.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_3e258.dir/CheckIncludeFile.c.o  -o cmTC_3e258 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2926/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2926.dir/build.make CMakeFiles/cmTC_a2926.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2926.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a2926.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a2926
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2926.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a2926.dir/CheckIncludeFile.c.o  -o cmTC_a2926 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82d8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82d8a.dir/build.make CMakeFiles/cmTC_82d8a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82d8a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_82d8a.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82d8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82d8a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_82d8a.dir/CheckIncludeFile.c.o  -o cmTC_82d8a -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4306a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4306a.dir/build.make CMakeFiles/cmTC_4306a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4306a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_4306a.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4306a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4306a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_4306a.dir/CheckIncludeFile.c.o  -o cmTC_4306a -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_076c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_076c3.dir/build.make CMakeFiles/cmTC_076c3.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_076c3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_076c3.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_076c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_076c3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_076c3.dir/CheckIncludeFile.c.o  -o cmTC_076c3 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f12d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f12d.dir/build.make CMakeFiles/cmTC_9f12d.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f12d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_9f12d.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9f12d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f12d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_9f12d.dir/CheckIncludeFile.c.o  -o cmTC_9f12d -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4c7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4c7b.dir/build.make CMakeFiles/cmTC_b4c7b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4c7b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_b4c7b.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b4c7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4c7b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_b4c7b.dir/CheckIncludeFile.c.o  -o cmTC_b4c7b -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46b0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46b0e.dir/build.make CMakeFiles/cmTC_46b0e.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46b0e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_46b0e.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_46b0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46b0e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_46b0e.dir/CheckIncludeFile.c.o  -o cmTC_46b0e -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/epoll.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92ca4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92ca4.dir/build.make CMakeFiles/cmTC_92ca4.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92ca4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_92ca4.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_92ca4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92ca4.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_92ca4.dir/CheckIncludeFile.c.o  -o cmTC_92ca4 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/eventfd.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2f59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2f59.dir/build.make CMakeFiles/cmTC_c2f59.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2f59.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_c2f59.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c2f59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2f59.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_c2f59.dir/CheckIncludeFile.c.o  -o cmTC_c2f59 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_970d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_970d7.dir/build.make CMakeFiles/cmTC_970d7.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_970d7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_970d7.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_970d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_970d7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_970d7.dir/CheckIncludeFile.c.o  -o cmTC_970d7 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf074/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf074.dir/build.make CMakeFiles/cmTC_cf074.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf074.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_cf074.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cf074
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf074.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_cf074.dir/CheckIncludeFile.c.o  -o cmTC_cf074 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6453b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6453b.dir/build.make CMakeFiles/cmTC_6453b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6453b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_6453b.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6453b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6453b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_6453b.dir/CheckIncludeFile.c.o  -o cmTC_6453b -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/queue.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3eed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3eed.dir/build.make CMakeFiles/cmTC_a3eed.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3eed.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a3eed.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a3eed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3eed.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a3eed.dir/CheckIncludeFile.c.o  -o cmTC_a3eed -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6311d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6311d.dir/build.make CMakeFiles/cmTC_6311d.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6311d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_6311d.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6311d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6311d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_6311d.dir/CheckIncludeFile.c.o  -o cmTC_6311d -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sendfile.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_983a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_983a9.dir/build.make CMakeFiles/cmTC_983a9.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_983a9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_983a9.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_983a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_983a9.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_983a9.dir/CheckIncludeFile.c.o  -o cmTC_983a9 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f80b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f80b4.dir/build.make CMakeFiles/cmTC_f80b4.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f80b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f80b4.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f80b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f80b4.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f80b4.dir/CheckIncludeFile.c.o  -o cmTC_f80b4 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0332/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0332.dir/build.make CMakeFiles/cmTC_a0332.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0332.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a0332.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a0332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0332.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a0332.dir/CheckIncludeFile.c.o  -o cmTC_a0332 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6899/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6899.dir/build.make CMakeFiles/cmTC_d6899.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6899.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_d6899.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d6899
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6899.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_d6899.dir/CheckIncludeFile.c.o  -o cmTC_d6899 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;ifaddrs.h exist passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a56f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a56f8.dir/build.make CMakeFiles/cmTC_a56f8.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a56f8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a56f8.dir/CheckIncludeFiles.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a56f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a56f8.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a56f8.dir/CheckIncludeFiles.c.o  -o cmTC_a56f8 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/tcp.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5017b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5017b.dir/build.make CMakeFiles/cmTC_5017b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5017b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_5017b.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5017b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5017b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_5017b.dir/CheckIncludeFile.c.o  -o cmTC_5017b -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_baa1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_baa1e.dir/build.make CMakeFiles/cmTC_baa1e.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baa1e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_baa1e.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_baa1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baa1e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_baa1e.dir/CheckIncludeFile.c.o  -o cmTC_baa1e -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da8bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da8bb.dir/build.make CMakeFiles/cmTC_da8bb.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da8bb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_da8bb.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_da8bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da8bb.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_da8bb.dir/CheckIncludeFile.c.o  -o cmTC_da8bb -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sysctl.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0090a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0090a.dir/build.make CMakeFiles/cmTC_0090a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0090a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_0090a.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0090a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0090a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_0090a.dir/CheckIncludeFile.c.o  -o cmTC_0090a -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/timerfd.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4e4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4e4b.dir/build.make CMakeFiles/cmTC_f4e4b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4e4b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f4e4b.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f4e4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4e4b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f4e4b.dir/CheckIncludeFile.c.o  -o cmTC_f4e4b -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe414/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe414.dir/build.make CMakeFiles/cmTC_fe414.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe414.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_fe414.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fe414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe414.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_fe414.dir/CheckIncludeFile.c.o  -o cmTC_fe414 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function epoll_create exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8a82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8a82.dir/build.make CMakeFiles/cmTC_b8a82.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8a82.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_create   -o CMakeFiles/cmTC_b8a82.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_b8a82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a82.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_create    CMakeFiles/cmTC_b8a82.dir/CheckFunctionExistsEx.c.o  -o cmTC_b8a82 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function epoll_ctl exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58bd0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58bd0.dir/build.make CMakeFiles/cmTC_58bd0.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58bd0.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_ctl   -o CMakeFiles/cmTC_58bd0.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_58bd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58bd0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_ctl    CMakeFiles/cmTC_58bd0.dir/CheckFunctionExistsEx.c.o  -o cmTC_58bd0 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function eventfd exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70f3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70f3f.dir/build.make CMakeFiles/cmTC_70f3f.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70f3f.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=eventfd   -o CMakeFiles/cmTC_70f3f.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_70f3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70f3f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=eventfd    CMakeFiles/cmTC_70f3f.dir/CheckFunctionExistsEx.c.o  -o cmTC_70f3f -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04e4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04e4f.dir/build.make CMakeFiles/cmTC_04e4f.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04e4f.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_04e4f.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_04e4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e4f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_04e4f.dir/CheckFunctionExistsEx.c.o  -o cmTC_04e4f -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b2f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b2f1.dir/build.make CMakeFiles/cmTC_8b2f1.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b2f1.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_8b2f1.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_8b2f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2f1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=fcntl    CMakeFiles/cmTC_8b2f1.dir/CheckFunctionExistsEx.c.o  -o cmTC_8b2f1 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7c09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7c09.dir/build.make CMakeFiles/cmTC_a7c09.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7c09.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTC_a7c09.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_a7c09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7c09.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getaddrinfo    CMakeFiles/cmTC_a7c09.dir/CheckFunctionExistsEx.c.o  -o cmTC_a7c09 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getnameinfo exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_914d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_914d6.dir/build.make CMakeFiles/cmTC_914d6.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_914d6.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getnameinfo   -o CMakeFiles/cmTC_914d6.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_914d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_914d6.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getnameinfo    CMakeFiles/cmTC_914d6.dir/CheckFunctionExistsEx.c.o  -o cmTC_914d6 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1276d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1276d.dir/build.make CMakeFiles/cmTC_1276d.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1276d.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_1276d.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_1276d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1276d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTC_1276d.dir/CheckFunctionExistsEx.c.o  -o cmTC_1276d -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getprotobynumber exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6aac7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6aac7.dir/build.make CMakeFiles/cmTC_6aac7.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6aac7.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getprotobynumber   -o CMakeFiles/cmTC_6aac7.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_6aac7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aac7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getprotobynumber    CMakeFiles/cmTC_6aac7.dir/CheckFunctionExistsEx.c.o  -o cmTC_6aac7 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getservbyname exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7d06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7d06.dir/build.make CMakeFiles/cmTC_c7d06.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7d06.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getservbyname   -o CMakeFiles/cmTC_c7d06.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_c7d06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7d06.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getservbyname    CMakeFiles/cmTC_c7d06.dir/CheckFunctionExistsEx.c.o  -o cmTC_c7d06 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_ntop exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce667/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce667.dir/build.make CMakeFiles/cmTC_ce667.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce667.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=inet_ntop   -o CMakeFiles/cmTC_ce667.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_ce667
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce667.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=inet_ntop    CMakeFiles/cmTC_ce667.dir/CheckFunctionExistsEx.c.o  -o cmTC_ce667 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59dd0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59dd0.dir/build.make CMakeFiles/cmTC_59dd0.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59dd0.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=inet_pton   -o CMakeFiles/cmTC_59dd0.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_59dd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59dd0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=inet_pton    CMakeFiles/cmTC_59dd0.dir/CheckFunctionExistsEx.c.o  -o cmTC_59dd0 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5630/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5630.dir/build.make CMakeFiles/cmTC_e5630.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5630.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_e5630.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_e5630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5630.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=mmap    CMakeFiles/cmTC_e5630.dir/CheckFunctionExistsEx.c.o  -o cmTC_e5630 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pipe exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47794/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47794.dir/build.make CMakeFiles/cmTC_47794.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47794.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pipe   -o CMakeFiles/cmTC_47794.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_47794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47794.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pipe    CMakeFiles/cmTC_47794.dir/CheckFunctionExistsEx.c.o  -o cmTC_47794 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pipe2 exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eec86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eec86.dir/build.make CMakeFiles/cmTC_eec86.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eec86.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pipe2   -o CMakeFiles/cmTC_eec86.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_eec86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eec86.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pipe2    CMakeFiles/cmTC_eec86.dir/CheckFunctionExistsEx.c.o  -o cmTC_eec86 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d085b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d085b.dir/build.make CMakeFiles/cmTC_d085b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d085b.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_d085b.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_d085b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d085b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTC_d085b.dir/CheckFunctionExistsEx.c.o  -o cmTC_d085b -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sendfile exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96f04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96f04.dir/build.make CMakeFiles/cmTC_96f04.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96f04.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sendfile   -o CMakeFiles/cmTC_96f04.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_96f04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96f04.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sendfile    CMakeFiles/cmTC_96f04.dir/CheckFunctionExistsEx.c.o  -o cmTC_96f04 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97836/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97836.dir/build.make CMakeFiles/cmTC_97836.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97836.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_97836.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_97836
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97836.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sigaction    CMakeFiles/cmTC_97836.dir/CheckFunctionExistsEx.c.o  -o cmTC_97836 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63aab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63aab.dir/build.make CMakeFiles/cmTC_63aab.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63aab.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTC_63aab.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_63aab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63aab.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=signal    CMakeFiles/cmTC_63aab.dir/CheckFunctionExistsEx.c.o  -o cmTC_63aab -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function splice exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1029/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1029.dir/build.make CMakeFiles/cmTC_b1029.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1029.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=splice   -o CMakeFiles/cmTC_b1029.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_b1029
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1029.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=splice    CMakeFiles/cmTC_b1029.dir/CheckFunctionExistsEx.c.o  -o cmTC_b1029 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23103/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23103.dir/build.make CMakeFiles/cmTC_23103.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23103.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTC_23103.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_23103
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23103.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strsep    CMakeFiles/cmTC_23103.dir/CheckFunctionExistsEx.c.o  -o cmTC_23103 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtok_r exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f21a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f21a.dir/build.make CMakeFiles/cmTC_5f21a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f21a.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strtok_r   -o CMakeFiles/cmTC_5f21a.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_5f21a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f21a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strtok_r    CMakeFiles/cmTC_5f21a.dir/CheckFunctionExistsEx.c.o  -o cmTC_5f21a -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4761b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4761b.dir/build.make CMakeFiles/cmTC_4761b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4761b.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_4761b.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_4761b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4761b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTC_4761b.dir/CheckFunctionExistsEx.c.o  -o cmTC_4761b -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0af2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0af2.dir/build.make CMakeFiles/cmTC_d0af2.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0af2.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=vasprintf   -o CMakeFiles/cmTC_d0af2.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_d0af2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0af2.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=vasprintf    CMakeFiles/cmTC_d0af2.dir/CheckFunctionExistsEx.c.o  -o cmTC_d0af2 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysctl exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5dd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5dd3.dir/build.make CMakeFiles/cmTC_e5dd3.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5dd3.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sysctl   -o CMakeFiles/cmTC_e5dd3.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_e5dd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5dd3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sysctl    CMakeFiles/cmTC_e5dd3.dir/CheckFunctionExistsEx.c.o  -o cmTC_e5dd3 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function accept4 exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53e2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53e2e.dir/build.make CMakeFiles/cmTC_53e2e.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53e2e.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=accept4   -o CMakeFiles/cmTC_53e2e.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_53e2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e2e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=accept4    CMakeFiles/cmTC_53e2e.dir/CheckFunctionExistsEx.c.o  -o cmTC_53e2e -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function epoll_create1 exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbfec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbfec.dir/build.make CMakeFiles/cmTC_fbfec.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbfec.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_create1   -o CMakeFiles/cmTC_fbfec.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_fbfec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbfec.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_create1    CMakeFiles/cmTC_fbfec.dir/CheckFunctionExistsEx.c.o  -o cmTC_fbfec -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getegid exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6a71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6a71.dir/build.make CMakeFiles/cmTC_d6a71.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6a71.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getegid   -o CMakeFiles/cmTC_d6a71.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_d6a71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6a71.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getegid    CMakeFiles/cmTC_d6a71.dir/CheckFunctionExistsEx.c.o  -o cmTC_d6a71 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function geteuid exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91ff8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91ff8.dir/build.make CMakeFiles/cmTC_91ff8.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91ff8.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=geteuid   -o CMakeFiles/cmTC_91ff8.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_91ff8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91ff8.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=geteuid    CMakeFiles/cmTC_91ff8.dir/CheckFunctionExistsEx.c.o  -o cmTC_91ff8 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getifaddrs exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c29be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c29be.dir/build.make CMakeFiles/cmTC_c29be.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c29be.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getifaddrs   -o CMakeFiles/cmTC_c29be.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_c29be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c29be.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getifaddrs    CMakeFiles/cmTC_c29be.dir/CheckFunctionExistsEx.c.o  -o cmTC_c29be -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ea6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ea6d.dir/build.make CMakeFiles/cmTC_8ea6d.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ea6d.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_8ea6d.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_8ea6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ea6d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTC_8ea6d.dir/CheckFunctionExistsEx.c.o  -o cmTC_8ea6d -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1899/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1899.dir/build.make CMakeFiles/cmTC_a1899.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1899.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=usleep   -o CMakeFiles/cmTC_a1899.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_a1899
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1899.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=usleep    CMakeFiles/cmTC_a1899.dir/CheckFunctionExistsEx.c.o  -o cmTC_a1899 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function timerfd_create exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e147/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e147.dir/build.make CMakeFiles/cmTC_5e147.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e147.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerfd_create   -o CMakeFiles/cmTC_5e147.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_5e147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e147.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerfd_create    CMakeFiles/cmTC_5e147.dir/CheckFunctionExistsEx.c.o  -o cmTC_5e147 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28a8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28a8c.dir/build.make CMakeFiles/cmTC_28a8c.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28a8c.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTC_28a8c.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_28a8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28a8c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=putenv    CMakeFiles/cmTC_28a8c.dir/CheckFunctionExistsEx.c.o  -o cmTC_28a8c -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b51a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b51a7.dir/build.make CMakeFiles/cmTC_b51a7.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b51a7.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTC_b51a7.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_b51a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b51a7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=setenv    CMakeFiles/cmTC_b51a7.dir/CheckFunctionExistsEx.c.o  -o cmTC_b51a7 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setrlimit exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a64e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a64e.dir/build.make CMakeFiles/cmTC_2a64e.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a64e.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=setrlimit   -o CMakeFiles/cmTC_2a64e.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_2a64e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a64e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=setrlimit    CMakeFiles/cmTC_2a64e.dir/CheckFunctionExistsEx.c.o  -o cmTC_2a64e -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function umask exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fc82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fc82.dir/build.make CMakeFiles/cmTC_5fc82.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fc82.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=umask   -o CMakeFiles/cmTC_5fc82.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_5fc82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fc82.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=umask    CMakeFiles/cmTC_5fc82.dir/CheckFunctionExistsEx.c.o  -o cmTC_5fc82 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6da7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6da7c.dir/build.make CMakeFiles/cmTC_6da7c.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6da7c.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles/cmTC_6da7c.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_6da7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6da7c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=unsetenv    CMakeFiles/cmTC_6da7c.dir/CheckFunctionExistsEx.c.o  -o cmTC_6da7c -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname_r exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7493/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7493.dir/build.make CMakeFiles/cmTC_a7493.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7493.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=gethostbyname_r   -o CMakeFiles/cmTC_a7493.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_a7493
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7493.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=gethostbyname_r    CMakeFiles/cmTC_a7493.dir/CheckFunctionExistsEx.c.o  -o cmTC_a7493 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the prototype gethostbyname_r exists for EVENT__HAVE_GETHOSTBYNAME_R_6_ARG passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9bb56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9bb56.dir/build.make CMakeFiles/cmTC_9bb56.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bb56.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_9bb56.dir/CheckPrototypeDefinition.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+Linking C executable cmTC_9bb56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb56.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_9bb56.dir/CheckPrototypeDefinition.c.o  -o cmTC_9bb56 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7268/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7268.dir/build.make CMakeFiles/cmTC_a7268.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7268.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTC_a7268.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_a7268
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7268.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=select    CMakeFiles/cmTC_a7268.dir/CheckFunctionExistsEx.c.o  -o cmTC_a7268 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64b23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64b23.dir/build.make CMakeFiles/cmTC_64b23.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64b23.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_64b23.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_64b23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64b23.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_64b23.dir/CheckIncludeFile.c.o  -o cmTC_64b23 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35f0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35f0f.dir/build.make CMakeFiles/cmTC_35f0f.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35f0f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_35f0f.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_35f0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35f0f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_35f0f.dir/CheckIncludeFile.c.o  -o cmTC_35f0f -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec497/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec497.dir/build.make CMakeFiles/cmTC_ec497.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec497.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_ec497.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ec497
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec497.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_ec497.dir/CheckIncludeFile.c.o  -o cmTC_ec497 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13ba9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_13ba9.dir/build.make CMakeFiles/cmTC_13ba9.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13ba9.dir/EVENT__HAVE_UINT8_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_13ba9.dir/EVENT__HAVE_UINT8_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT8_T.c
+Linking C executable cmTC_13ba9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13ba9.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_13ba9.dir/EVENT__HAVE_UINT8_T.c.o  -o cmTC_13ba9 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af22c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af22c.dir/build.make CMakeFiles/cmTC_af22c.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af22c.dir/EVENT__HAVE_UINT16_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_af22c.dir/EVENT__HAVE_UINT16_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT16_T.c
+Linking C executable cmTC_af22c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af22c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_af22c.dir/EVENT__HAVE_UINT16_T.c.o  -o cmTC_af22c -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7945/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7945.dir/build.make CMakeFiles/cmTC_b7945.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7945.dir/EVENT__HAVE_UINT32_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_b7945.dir/EVENT__HAVE_UINT32_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT32_T.c
+Linking C executable cmTC_b7945
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7945.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_b7945.dir/EVENT__HAVE_UINT32_T.c.o  -o cmTC_b7945 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db2f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db2f9.dir/build.make CMakeFiles/cmTC_db2f9.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db2f9.dir/EVENT__HAVE_UINT64_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_db2f9.dir/EVENT__HAVE_UINT64_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT64_T.c
+Linking C executable cmTC_db2f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db2f9.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_db2f9.dir/EVENT__HAVE_UINT64_T.c.o  -o cmTC_db2f9 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92ced/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92ced.dir/build.make CMakeFiles/cmTC_92ced.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92ced.dir/EVENT__SIZEOF_SHORT.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_92ced.dir/EVENT__SIZEOF_SHORT.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SHORT.c
+Linking C executable cmTC_92ced
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92ced.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_92ced.dir/EVENT__SIZEOF_SHORT.c.o  -o cmTC_92ced -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_996f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_996f4.dir/build.make CMakeFiles/cmTC_996f4.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_996f4.dir/EVENT__SIZEOF_INT.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_996f4.dir/EVENT__SIZEOF_INT.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_INT.c
+Linking C executable cmTC_996f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_996f4.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_996f4.dir/EVENT__SIZEOF_INT.c.o  -o cmTC_996f4 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23481/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23481.dir/build.make CMakeFiles/cmTC_23481.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23481.dir/EVENT__SIZEOF_UNSIGNED.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_23481.dir/EVENT__SIZEOF_UNSIGNED.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_UNSIGNED.c
+Linking C executable cmTC_23481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23481.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_23481.dir/EVENT__SIZEOF_UNSIGNED.c.o  -o cmTC_23481 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_545d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_545d2.dir/build.make CMakeFiles/cmTC_545d2.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_545d2.dir/EVENT__SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_545d2.dir/EVENT__SIZEOF_UNSIGNED_INT.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_545d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_545d2.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_545d2.dir/EVENT__SIZEOF_UNSIGNED_INT.c.o  -o cmTC_545d2 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca212/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca212.dir/build.make CMakeFiles/cmTC_ca212.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca212.dir/EVENT__SIZEOF_LONG.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_ca212.dir/EVENT__SIZEOF_LONG.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_LONG.c
+Linking C executable cmTC_ca212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca212.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_ca212.dir/EVENT__SIZEOF_LONG.c.o  -o cmTC_ca212 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a94ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a94ec.dir/build.make CMakeFiles/cmTC_a94ec.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a94ec.dir/EVENT__SIZEOF_LONG_LONG.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a94ec.dir/EVENT__SIZEOF_LONG_LONG.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_LONG_LONG.c
+Linking C executable cmTC_a94ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a94ec.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a94ec.dir/EVENT__SIZEOF_LONG_LONG.c.o  -o cmTC_a94ec -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40071/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40071.dir/build.make CMakeFiles/cmTC_40071.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40071.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DHAVE_INLINE   -o CMakeFiles/cmTC_40071.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_40071
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40071.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DHAVE_INLINE    CMakeFiles/cmTC_40071.dir/src.c.o  -o cmTC_40071 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Determining if the TAILQ_FOREACH exist passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_397cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_397cc.dir/build.make CMakeFiles/cmTC_397cc.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_397cc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_397cc.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_397cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_397cc.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_397cc.dir/CheckSymbolExists.c.o  -o cmTC_397cc -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/queue.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TAILQ_FOREACH
+  return ((int*)(&TAILQ_FOREACH))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the F_SETFD exist passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71fa3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71fa3.dir/build.make CMakeFiles/cmTC_71fa3.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71fa3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_71fa3.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_71fa3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71fa3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_71fa3.dir/CheckSymbolExists.c.o  -o cmTC_71fa3 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETFD
+  return ((int*)(&F_SETFD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of fd_mask passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4ddc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4ddc.dir/build.make CMakeFiles/cmTC_c4ddc.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4ddc.dir/EVENT__HAVE_FD_MASK.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_c4ddc.dir/EVENT__HAVE_FD_MASK.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_FD_MASK.c
+Linking C executable cmTC_c4ddc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4ddc.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_c4ddc.dir/EVENT__HAVE_FD_MASK.c.o  -o cmTC_c4ddc -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49c98/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49c98.dir/build.make CMakeFiles/cmTC_49c98.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49c98.dir/EVENT__SIZEOF_SIZEE_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_49c98.dir/EVENT__SIZEOF_SIZEE_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SIZEE_T.c
+Linking C executable cmTC_49c98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49c98.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_49c98.dir/EVENT__SIZEOF_SIZEE_T.c.o  -o cmTC_49c98 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6e6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6e6c.dir/build.make CMakeFiles/cmTC_b6e6c.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6e6c.dir/EVENT__SIZEOF_OFF_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_b6e6c.dir/EVENT__SIZEOF_OFF_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_OFF_T.c
+Linking C executable cmTC_b6e6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e6c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_b6e6c.dir/EVENT__SIZEOF_OFF_T.c.o  -o cmTC_b6e6c -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0eef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0eef.dir/build.make CMakeFiles/cmTC_c0eef.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0eef.dir/EVENT__SIZEOF_SSIZE_T_LOWER.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_c0eef.dir/EVENT__SIZEOF_SSIZE_T_LOWER.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_LOWER.c
+Linking C executable cmTC_c0eef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0eef.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_c0eef.dir/EVENT__SIZEOF_SSIZE_T_LOWER.c.o  -o cmTC_c0eef -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fecbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fecbd.dir/build.make CMakeFiles/cmTC_fecbd.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fecbd.dir/EVENT__SIZEOF_SOCKLEN_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_fecbd.dir/EVENT__SIZEOF_SOCKLEN_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SOCKLEN_T.c
+Linking C executable cmTC_fecbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fecbd.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_fecbd.dir/EVENT__SIZEOF_SOCKLEN_T.c.o  -o cmTC_fecbd -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fa22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fa22.dir/build.make CMakeFiles/cmTC_1fa22.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fa22.dir/EVENT__SIZEOF_PID_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_1fa22.dir/EVENT__SIZEOF_PID_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PID_T.c
+Linking C executable cmTC_1fa22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa22.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_1fa22.dir/EVENT__SIZEOF_PID_T.c.o  -o cmTC_1fa22 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of pthread_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a021d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a021d.dir/build.make CMakeFiles/cmTC_a021d.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a021d.dir/EVENT__SIZEOF_PTHREAD_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a021d.dir/EVENT__SIZEOF_PTHREAD_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PTHREAD_T.c
+Linking C executable cmTC_a021d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a021d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a021d.dir/EVENT__SIZEOF_PTHREAD_T.c.o  -o cmTC_a021d -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfb6a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfb6a.dir/build.make CMakeFiles/cmTC_dfb6a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfb6a.dir/EVENT__HAVE_UINTPTR_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_dfb6a.dir/EVENT__HAVE_UINTPTR_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINTPTR_T.c
+Linking C executable cmTC_dfb6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfb6a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_dfb6a.dir/EVENT__HAVE_UINTPTR_T.c.o  -o cmTC_dfb6a -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void * passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f527b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f527b.dir/build.make CMakeFiles/cmTC_f527b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f527b.dir/EVENT__SIZEOF_VOID_P.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f527b.dir/EVENT__SIZEOF_VOID_P.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_VOID_P.c
+Linking C executable cmTC_f527b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f527b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f527b.dir/EVENT__SIZEOF_VOID_P.c.o  -o cmTC_f527b -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the _POSIX_SOURCE exist passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52444/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52444.dir/build.make CMakeFiles/cmTC_52444.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52444.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_52444.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_52444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52444.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_52444.dir/CheckSymbolExists.c.o  -o cmTC_52444 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _POSIX_SOURCE
+  return ((int*)(&_POSIX_SOURCE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of struct addrinfo passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f1e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f1e2.dir/build.make CMakeFiles/cmTC_5f1e2.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f1e2.dir/EVENT__HAVE_STRUCT_ADDRINFO.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_5f1e2.dir/EVENT__HAVE_STRUCT_ADDRINFO.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_ADDRINFO.c
+Linking C executable cmTC_5f1e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f1e2.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_5f1e2.dir/EVENT__HAVE_STRUCT_ADDRINFO.c.o  -o cmTC_5f1e2 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of struct in6_addr passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d067/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d067.dir/build.make CMakeFiles/cmTC_0d067.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d067.dir/EVENT__HAVE_STRUCT_IN6_ADDR.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_0d067.dir/EVENT__HAVE_STRUCT_IN6_ADDR.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_IN6_ADDR.c
+Linking C executable cmTC_0d067
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d067.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_0d067.dir/EVENT__HAVE_STRUCT_IN6_ADDR.c.o  -o cmTC_0d067 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16 succeeded with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49d29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49d29.dir/build.make CMakeFiles/cmTC_49d29.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49d29.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16   -o CMakeFiles/cmTC_49d29.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_49d29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d29.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16    CMakeFiles/cmTC_49d29.dir/src.c.o  -o cmTC_49d29 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct in6_addr *)0)->s6_addr16);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32 succeeded with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65f0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65f0e.dir/build.make CMakeFiles/cmTC_65f0e.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65f0e.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32   -o CMakeFiles/cmTC_65f0e.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_65f0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65f0e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32    CMakeFiles/cmTC_65f0e.dir/src.c.o  -o cmTC_65f0e -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct in6_addr *)0)->s6_addr32);
+   return 0;
+}
+
+Determining size of sa_family_t passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5645/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5645.dir/build.make CMakeFiles/cmTC_b5645.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5645.dir/EVENT__HAVE_SA_FAMILY_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_b5645.dir/EVENT__HAVE_SA_FAMILY_T.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_SA_FAMILY_T.c
+Linking C executable cmTC_b5645
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5645.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_b5645.dir/EVENT__HAVE_SA_FAMILY_T.c.o  -o cmTC_b5645 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of struct sockaddr_in6 passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07062/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07062.dir/build.make CMakeFiles/cmTC_07062.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07062.dir/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_07062.dir/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c
+Linking C executable cmTC_07062
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07062.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_07062.dir/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c.o  -o cmTC_07062 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f62e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f62e6.dir/build.make CMakeFiles/cmTC_f62e6.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f62e6.dir/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f62e6.dir/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c
+Linking C executable cmTC_f62e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f62e6.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f62e6.dir/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c.o  -o cmTC_f62e6 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY succeeded with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3399/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3399.dir/build.make CMakeFiles/cmTC_b3399.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3399.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY   -o CMakeFiles/cmTC_b3399.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b3399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3399.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY    CMakeFiles/cmTC_b3399.dir/src.c.o  -o cmTC_b3399 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+   return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd638/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd638.dir/build.make CMakeFiles/cmTC_dd638.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd638.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_dd638.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dd638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd638.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_dd638.dir/CheckIncludeFile.c.o  -o cmTC_dd638 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aaf4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aaf4c.dir/build.make CMakeFiles/cmTC_aaf4c.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aaf4c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aaf4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aaf4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaf4c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_aaf4c.dir/CheckFunctionExists.c.o  -o cmTC_aaf4c -rdynamic -lpthread 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ERR_remove_thread_state exists passed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e72ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e72ba.dir/build.make CMakeFiles/cmTC_e72ba.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e72ba.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=ERR_remove_thread_state   -o CMakeFiles/cmTC_e72ba.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_e72ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e72ba.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=ERR_remove_thread_state    CMakeFiles/cmTC_e72ba.dir/CheckFunctionExistsEx.c.o  -o cmTC_e72ba -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+

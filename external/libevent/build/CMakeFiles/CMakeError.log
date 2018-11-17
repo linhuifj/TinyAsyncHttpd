@@ -1,0 +1,888 @@
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a97b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a97b.dir/build.make CMakeFiles/cmTC_8a97b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a97b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_8a97b.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: netinet/in6.h: No such file or directory
+ #include <netinet/in6.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTC_8a97b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8a97b.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8a97b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8a97b/fast' failed
+make: *** [cmTC_8a97b/fast] Error 2
+
+
+Determining if the include file port.h exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c0bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c0bf.dir/build.make CMakeFiles/cmTC_8c0bf.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c0bf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_8c0bf.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: port.h: No such file or directory
+ #include <port.h>
+                  ^
+compilation terminated.
+CMakeFiles/cmTC_8c0bf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8c0bf.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8c0bf.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8c0bf/fast' failed
+make: *** [cmTC_8c0bf/fast] Error 2
+
+
+Determining if the include file sys/devpoll.h exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f62c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f62c6.dir/build.make CMakeFiles/cmTC_f62c6.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f62c6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f62c6.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/devpoll.h: No such file or directory
+ #include <sys/devpoll.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTC_f62c6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f62c6.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f62c6.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f62c6/fast' failed
+make: *** [cmTC_f62c6/fast] Error 2
+
+
+Determining if the include file sys/event.h exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dff0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dff0f.dir/build.make CMakeFiles/cmTC_dff0f.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dff0f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_dff0f.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: sys/event.h: No such file or directory
+ #include <sys/event.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTC_dff0f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dff0f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_dff0f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dff0f/fast' failed
+make: *** [cmTC_dff0f/fast] Error 2
+
+
+Determining if the include file mach/mach_time.h exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f38a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f38a.dir/build.make CMakeFiles/cmTC_5f38a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f38a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_5f38a.dir/CheckIncludeFile.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: mach/mach_time.h: No such file or directory
+ #include <mach/mach_time.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTC_5f38a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5f38a.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5f38a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f38a/fast' failed
+make: *** [cmTC_5f38a/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8cd0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8cd0.dir/build.make CMakeFiles/cmTC_e8cd0.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8cd0.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTC_e8cd0.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_e8cd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8cd0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTC_e8cd0.dir/CheckFunctionExistsEx.c.o  -o cmTC_e8cd0 -rdynamic 
+CMakeFiles/cmTC_e8cd0.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e8cd0.dir/build.make:97: recipe for target 'cmTC_e8cd0' failed
+make[1]: *** [cmTC_e8cd0] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e8cd0/fast' failed
+make: *** [cmTC_e8cd0/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50e0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50e0a.dir/build.make CMakeFiles/cmTC_50e0a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50e0a.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=port_create   -o CMakeFiles/cmTC_50e0a.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_50e0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e0a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=port_create    CMakeFiles/cmTC_50e0a.dir/CheckFunctionExistsEx.c.o  -o cmTC_50e0a -rdynamic 
+CMakeFiles/cmTC_50e0a.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `port_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_50e0a.dir/build.make:97: recipe for target 'cmTC_50e0a' failed
+make[1]: *** [cmTC_50e0a] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_50e0a/fast' failed
+make: *** [cmTC_50e0a/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0477/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0477.dir/build.make CMakeFiles/cmTC_f0477.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0477.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_f0477.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_f0477
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0477.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTC_f0477.dir/CheckFunctionExistsEx.c.o  -o cmTC_f0477 -rdynamic 
+CMakeFiles/cmTC_f0477.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f0477.dir/build.make:97: recipe for target 'cmTC_f0477' failed
+make[1]: *** [cmTC_f0477] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f0477/fast' failed
+make: *** [cmTC_f0477/fast] Error 2
+
+
+Determining if the function arc4random exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef5af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef5af.dir/build.make CMakeFiles/cmTC_ef5af.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef5af.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=arc4random   -o CMakeFiles/cmTC_ef5af.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_ef5af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef5af.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=arc4random    CMakeFiles/cmTC_ef5af.dir/CheckFunctionExistsEx.c.o  -o cmTC_ef5af -rdynamic 
+CMakeFiles/cmTC_ef5af.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `arc4random'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ef5af.dir/build.make:97: recipe for target 'cmTC_ef5af' failed
+make[1]: *** [cmTC_ef5af] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ef5af/fast' failed
+make: *** [cmTC_ef5af/fast] Error 2
+
+
+Determining if the function arc4random_buf exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83c9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83c9c.dir/build.make CMakeFiles/cmTC_83c9c.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83c9c.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=arc4random_buf   -o CMakeFiles/cmTC_83c9c.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_83c9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c9c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=arc4random_buf    CMakeFiles/cmTC_83c9c.dir/CheckFunctionExistsEx.c.o  -o cmTC_83c9c -rdynamic 
+CMakeFiles/cmTC_83c9c.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `arc4random_buf'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_83c9c.dir/build.make:97: recipe for target 'cmTC_83c9c' failed
+make[1]: *** [cmTC_83c9c] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_83c9c/fast' failed
+make: *** [cmTC_83c9c/fast] Error 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cce33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cce33.dir/build.make CMakeFiles/cmTC_cce33.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cce33.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTC_cce33.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_cce33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cce33.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTC_cce33.dir/CheckFunctionExistsEx.c.o  -o cmTC_cce33 -rdynamic 
+CMakeFiles/cmTC_cce33.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cce33.dir/build.make:97: recipe for target 'cmTC_cce33' failed
+make[1]: *** [cmTC_cce33] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cce33/fast' failed
+make: *** [cmTC_cce33/fast] Error 2
+
+
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f86e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f86e.dir/build.make CMakeFiles/cmTC_9f86e.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f86e.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=mach_absolute_time   -o CMakeFiles/cmTC_9f86e.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_9f86e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f86e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=mach_absolute_time    CMakeFiles/cmTC_9f86e.dir/CheckFunctionExistsEx.c.o  -o cmTC_9f86e -rdynamic 
+CMakeFiles/cmTC_9f86e.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `mach_absolute_time'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9f86e.dir/build.make:97: recipe for target 'cmTC_9f86e' failed
+make[1]: *** [cmTC_9f86e] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9f86e/fast' failed
+make: *** [cmTC_9f86e/fast] Error 2
+
+
+Determining if the function timeradd exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8e4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8e4e.dir/build.make CMakeFiles/cmTC_f8e4e.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8e4e.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timeradd   -o CMakeFiles/cmTC_f8e4e.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_f8e4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8e4e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timeradd    CMakeFiles/cmTC_f8e4e.dir/CheckFunctionExistsEx.c.o  -o cmTC_f8e4e -rdynamic 
+CMakeFiles/cmTC_f8e4e.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `timeradd'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f8e4e.dir/build.make:97: recipe for target 'cmTC_f8e4e' failed
+make[1]: *** [cmTC_f8e4e] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f8e4e/fast' failed
+make: *** [cmTC_f8e4e/fast] Error 2
+
+
+Determining if the function timerclear exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e735/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e735.dir/build.make CMakeFiles/cmTC_0e735.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e735.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerclear   -o CMakeFiles/cmTC_0e735.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_0e735
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e735.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerclear    CMakeFiles/cmTC_0e735.dir/CheckFunctionExistsEx.c.o  -o cmTC_0e735 -rdynamic 
+CMakeFiles/cmTC_0e735.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `timerclear'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0e735.dir/build.make:97: recipe for target 'cmTC_0e735' failed
+make[1]: *** [cmTC_0e735] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e735/fast' failed
+make: *** [cmTC_0e735/fast] Error 2
+
+
+Determining if the function timercmp exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf5b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf5b1.dir/build.make CMakeFiles/cmTC_bf5b1.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf5b1.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timercmp   -o CMakeFiles/cmTC_bf5b1.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_bf5b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf5b1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timercmp    CMakeFiles/cmTC_bf5b1.dir/CheckFunctionExistsEx.c.o  -o cmTC_bf5b1 -rdynamic 
+CMakeFiles/cmTC_bf5b1.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `timercmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bf5b1.dir/build.make:97: recipe for target 'cmTC_bf5b1' failed
+make[1]: *** [cmTC_bf5b1] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bf5b1/fast' failed
+make: *** [cmTC_bf5b1/fast] Error 2
+
+
+Determining if the function timerisset exists failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bcba8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bcba8.dir/build.make CMakeFiles/cmTC_bcba8.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcba8.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerisset   -o CMakeFiles/cmTC_bcba8.dir/CheckFunctionExistsEx.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_bcba8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcba8.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerisset    CMakeFiles/cmTC_bcba8.dir/CheckFunctionExistsEx.c.o  -o cmTC_bcba8 -rdynamic 
+CMakeFiles/cmTC_bcba8.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `timerisset'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bcba8.dir/build.make:97: recipe for target 'cmTC_bcba8' failed
+make[1]: *** [cmTC_bcba8] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bcba8/fast' failed
+make: *** [cmTC_bcba8/fast] Error 2
+
+
+Determining if the prototype gethostbyname_r exists for EVENT__HAVE_GETHOSTBYNAME_R_3_ARG failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bc4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bc4d.dir/build.make CMakeFiles/cmTC_1bc4d.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bc4d.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_1bc4d.dir/CheckPrototypeDefinition.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:66: warning: ‘struct hostent_data’ declared inside parameter list will not be visible outside of this definition or declaration
+ int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+                                                                  ^~~~~~~~~~~~
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:5: error: conflicting types for ‘gethostbyname_r’
+ int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+     ^~~~~~~~~~~~~~~
+In file included from /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:1:0:
+/usr/include/netdb.h:179:12: note: previous declaration of ‘gethostbyname_r’ was here
+ extern int gethostbyname_r (const char *__restrict __name,
+            ^~~~~~~~~~~~~~~
+CMakeFiles/cmTC_1bc4d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1bc4d.dir/CheckPrototypeDefinition.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1bc4d.dir/CheckPrototypeDefinition.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1bc4d/fast' failed
+make: *** [cmTC_1bc4d/fast] Error 2
+
+
+#include <netdb.h>
+
+
+static void cmakeRequireSymbol(int dummy, ...) {
+  (void) dummy;
+}
+
+static void checkSymbol(void) {
+#ifndef gethostbyname_r
+  cmakeRequireSymbol(0, &gethostbyname_r);
+#endif
+}
+
+int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+  return 0;
+}
+
+#ifdef __CLASSIC_C__
+int main() {
+  int ac;
+  char*av[];
+#else
+int main(int ac, char *av[]) {
+#endif
+  checkSymbol();
+  if (ac > 1000) {
+    return *av[0];
+  }
+  return 0;
+}
+
+
+Determining if the prototype gethostbyname_r exists for EVENT__HAVE_GETHOSTBYNAME_R_5_ARG failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11809/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11809.dir/build.make CMakeFiles/cmTC_11809.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11809.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_11809.dir/CheckPrototypeDefinition.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:17: error: conflicting types for ‘gethostbyname_r’
+ struct hostent *gethostbyname_r(const char *name, struct hostent *hp, char *buf, size_t buflen, int *herr) {
+                 ^~~~~~~~~~~~~~~
+In file included from /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:1:0:
+/usr/include/netdb.h:179:12: note: previous declaration of ‘gethostbyname_r’ was here
+ extern int gethostbyname_r (const char *__restrict __name,
+            ^~~~~~~~~~~~~~~
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c: In function ‘gethostbyname_r’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:15:10: error: ‘NULL’ undeclared (first use in this function)
+   return NULL;
+          ^~~~
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:15:10: note: each undeclared identifier is reported only once for each function it appears in
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+CMakeFiles/cmTC_11809.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_11809.dir/CheckPrototypeDefinition.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_11809.dir/CheckPrototypeDefinition.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_11809/fast' failed
+make: *** [cmTC_11809/fast] Error 2
+
+
+#include <netdb.h>
+
+
+static void cmakeRequireSymbol(int dummy, ...) {
+  (void) dummy;
+}
+
+static void checkSymbol(void) {
+#ifndef gethostbyname_r
+  cmakeRequireSymbol(0, &gethostbyname_r);
+#endif
+}
+
+struct hostent *gethostbyname_r(const char *name, struct hostent *hp, char *buf, size_t buflen, int *herr) {
+  return NULL;
+}
+
+#ifdef __CLASSIC_C__
+int main() {
+  int ac;
+  char*av[];
+#else
+int main(int ac, char *av[]) {
+#endif
+  checkSymbol();
+  if (ac > 1000) {
+    return *av[0];
+  }
+  return 0;
+}
+
+
+Determining if the CTL_KERN exist failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e50a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e50a.dir/build.make CMakeFiles/cmTC_4e50a.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e50a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_4e50a.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:18: error: lvalue required as unary ‘&’ operand
+   return ((int*)(&CTL_KERN))[argc];
+                  ^
+CMakeFiles/cmTC_4e50a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4e50a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4e50a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4e50a/fast' failed
+make: *** [cmTC_4e50a/fast] Error 2
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CTL_KERN
+  return ((int*)(&CTL_KERN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the KERN_ARND exist failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27807/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27807.dir/build.make CMakeFiles/cmTC_27807.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27807.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_27807.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘KERN_ARND’ undeclared (first use in this function)
+   return ((int*)(&KERN_ARND))[argc];
+                   ^~~~~~~~~
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_27807.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_27807.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_27807.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_27807/fast' failed
+make: *** [cmTC_27807/fast] Error 2
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef KERN_ARND
+  return ((int*)(&KERN_ARND))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the KERN_RANDOM exist failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91f03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91f03.dir/build.make CMakeFiles/cmTC_91f03.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91f03.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_91f03.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:18: error: lvalue required as unary ‘&’ operand
+   return ((int*)(&KERN_RANDOM))[argc];
+                  ^
+CMakeFiles/cmTC_91f03.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_91f03.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_91f03.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_91f03/fast' failed
+make: *** [cmTC_91f03/fast] Error 2
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef KERN_RANDOM
+  return ((int*)(&KERN_RANDOM))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the RANDOM_UUID exist failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83d86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83d86.dir/build.make CMakeFiles/cmTC_83d86.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83d86.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_83d86.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:18: error: lvalue required as unary ‘&’ operand
+   return ((int*)(&RANDOM_UUID))[argc];
+                  ^
+CMakeFiles/cmTC_83d86.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_83d86.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_83d86.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_83d86/fast' failed
+make: *** [cmTC_83d86/fast] Error 2
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef RANDOM_UUID
+  return ((int*)(&RANDOM_UUID))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of SSIZE_T failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fbea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fbea.dir/build.make CMakeFiles/cmTC_7fbea.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fbea.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_7fbea.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:22:22: error: ‘SSIZE_T’ undeclared here (not in a function)
+ #define SIZE (sizeof(SSIZE_T))
+                      ^
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:24:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_7fbea.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7fbea.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7fbea.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7fbea/fast' failed
+make: *** [cmTC_7fbea/fast] Error 2
+
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+#include "sys/socket.h"
+#include "netinet/in.h"
+#include "fcntl.h"
+#include "sys/time.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(SSIZE_T))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_WAITPID_WITH_WNOWAIT failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb628/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb628.dir/build.make CMakeFiles/cmTC_cb628.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb628.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_WAITPID_WITH_WNOWAIT   -o CMakeFiles/cmTC_cb628.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cb628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb628.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_WAITPID_WITH_WNOWAIT    CMakeFiles/cmTC_cb628.dir/src.c.o  -o cmTC_cb628 -rdynamic 
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <stdlib.h>
+
+int
+main(int argc, char** argv)
+{
+    pid_t pid;
+    int status;
+    if ((pid = fork()) == 0) _exit(0);
+    _exit(waitpid(pid, &status, WNOWAIT) == -1);
+}
+Determining if the _MINIX exist failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee94c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee94c.dir/build.make CMakeFiles/cmTC_ee94c.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee94c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_ee94c.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_MINIX’ undeclared (first use in this function)
+   return ((int*)(&_MINIX))[argc];
+                   ^~~~~~
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_ee94c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ee94c.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ee94c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ee94c/fast' failed
+make: *** [cmTC_ee94c/fast] Error 2
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _MINIX
+  return ((int*)(&_MINIX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _POSIX_1_SOURCE exist failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6f8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6f8b.dir/build.make CMakeFiles/cmTC_d6f8b.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6f8b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_d6f8b.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_POSIX_1_SOURCE’ undeclared (first use in this function)
+   return ((int*)(&_POSIX_1_SOURCE))[argc];
+                   ^~~~~~~~~~~~~~~
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_d6f8b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d6f8b.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d6f8b.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6f8b/fast' failed
+make: *** [cmTC_d6f8b/fast] Error 2
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _POSIX_1_SOURCE
+  return ((int*)(&_POSIX_1_SOURCE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a737/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a737.dir/build.make CMakeFiles/cmTC_3a737.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a737.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTC_3a737.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c:8:43: error: ‘struct sockaddr_in6’ has no member named ‘sin6_len’; did you mean ‘sin6_port’?
+    (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+                                           ^~
+CMakeFiles/cmTC_3a737.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3a737.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3a737.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3a737/fast' failed
+make: *** [cmTC_3a737/fast] Error 2
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ede00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ede00.dir/build.make CMakeFiles/cmTC_ede00.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ede00.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTC_ede00.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c:8:43: error: ‘struct sockaddr_in6’ has no member named ‘sin_len’
+    (void)sizeof(((struct sockaddr_in6 *)0)->sin_len);
+                                           ^~
+CMakeFiles/cmTC_ede00.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ede00.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ede00.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ede00/fast' failed
+make: *** [cmTC_ede00/fast] Error 2
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e40e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e40e7.dir/build.make CMakeFiles/cmTC_e40e7.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e40e7.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY   -o CMakeFiles/cmTC_e40e7.dir/src.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/src.c:8:47: error: ‘struct sockaddr_storage’ has no member named ‘__ss_family’; did you mean ‘ss_family’?
+    (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+                                               ^~
+CMakeFiles/cmTC_e40e7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e40e7.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e40e7.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e40e7/fast' failed
+make: *** [cmTC_e40e7/fast] Error 2
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+   return 0;
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_025c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_025c0.dir/build.make CMakeFiles/cmTC_025c0.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_025c0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_025c0.dir/CheckSymbolExists.c.o   -c /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_025c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_025c0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_025c0.dir/CheckSymbolExists.c.o  -o cmTC_025c0 -rdynamic 
+CMakeFiles/cmTC_025c0.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_025c0.dir/build.make:97: recipe for target 'cmTC_025c0' failed
+make[1]: *** [cmTC_025c0] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_025c0/fast' failed
+make: *** [cmTC_025c0/fast] Error 2
+
+File /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e9b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e9b0.dir/build.make CMakeFiles/cmTC_0e9b0.dir/build
+make[1]: Entering directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e9b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0e9b0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e9b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e9b0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0e9b0.dir/CheckFunctionExists.c.o  -o cmTC_0e9b0 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0e9b0.dir/build.make:97: recipe for target 'cmTC_0e9b0' failed
+make[1]: *** [cmTC_0e9b0] Error 1
+make[1]: Leaving directory '/home/linhui/workspace/OCRService/external_src/libevent/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e9b0/fast' failed
+make: *** [cmTC_0e9b0/fast] Error 2
+
+
